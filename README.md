@@ -7,7 +7,8 @@ This project investigates ICU outcomes using the **MIMIC-IV** dataset, focusing 
 
 ### 🤖To Run App
 * `git clone` repo to pull files locally
-* Run `streamlit run streamlit_run.py`
+* Run `streamlit run streamlit_run.py` 
+![alt text](images/app.png)
 
 ## 📁 Contents
 
@@ -47,6 +48,7 @@ In order to explore if there are maybe any demographic features that could bias 
 * **XGBoost** model trained on ICU features
 * **SHAP values** used to interpret feature contributions to mortality predictions and LOS
 * **ICE** used to interpret how features impact model prediction
+![alt text](images/comorbidity.png)
 
 
 ## 📌 Key Findings
