@@ -16,7 +16,7 @@ def run_app():
 # Streamlit App
 # ---------------------------
     st.title("ICU Length of Stay Estimator")
-    st.write("Enter patient information to estimate expected ICU Length of Stay (LOS).")
+    st.write("Enter patient information to estimate expected ICU Length of Stay (LOS). See how model prediction might or might not change with different demographics")
 
 # ---------------------------
 # User Inputs

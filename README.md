@@ -3,7 +3,7 @@ Applying explainability techniques to predictive modeling in healthcare.
 
 # 🏥 ICU Outcomes in MIMIC-IV: Mortality & LOS Analysis
 
-This project investigates ICU outcomes using the **MIMIC-IV** dataset, focusing on **mortality** and **length of stay (LOS)**. We use descriptive statistics, visualizations, and predictive modeling with explainability to explore disparities by **race**, **insurance**, **gender**, and **clinical covariates**.
+This project investigates ICU outcomes using the **MIMIC-IV** dataset, focusing on **mortality** and **length of stay (LOS)**. We use descriptive statistics, visualizations, and predictive modeling with explainability to explore disparities by **race**, **insurance**, **gender**, and **clinical covariates**. We then create a Streamlit app where you can enter different demographic information and see how the predicted length of stay in the ICU changes (or might not change) based on patient demographic to see if certain features might impact this predictive model's outputs.
 
 ### 🤖To Run App
 * `git clone` repo to pull files locally
@@ -12,7 +12,7 @@ This project investigates ICU outcomes using the **MIMIC-IV** dataset, focusing 
 ## 📁 Contents
 
 * `XAI_ICU_Study.ipynb`: Full analysis in Jupyter Notebook
-* `streamlit_run.py`: Streamlist App
+* `streamlit_run.py`: Streamlit App
 * `requirements.txt`: Requirements to run model and app
 * `xgb_icu_los_model.pkl`: Model trained to predict ICU length of stay outcomes
 
@@ -33,6 +33,7 @@ Key Tables:
 * Explore how **race, gender, age, insurance type, and comorbidities** influence ICU outcomes to see if they may be salient enough to be important features for predictive modeling. 
 * Identify **disparities** in model predictions for **in-ICU mortality** and **length of stay** 
 * **Predict mortality risk** and analyze **feature importance** to see potential healthcare practice impacts
+* Create an **artifact** to interactively explore explainability of model
 
 ## 📈 Methods
 
@@ -52,7 +53,6 @@ In order to explore if there are maybe any demographic features that could bias 
 
 * **Comorbidity score** was the strongest predictor of mortality for the model
 * Race and insurance had some importance for the model in predicting both outcomes, but it's important to note that the dataset was highly imbalanced with mainly white patients.
-* Gender had **minimal impact** on mortality predictions
 * Overall it's important to continuous apply explainability in high risk healthcare settings to ensure we have an understanding of how models are coming to their decisions as there can be real implications on healthcare outcomes and provider care.
   
 
