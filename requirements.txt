@@ -1,33 +1,4 @@
-- One area we saw an opportunity for impact is real-time monitoring of risks and instantaneous recommendations for risk mitigation strategies
-- Over the last month, we've worked on aggregating news, summarizing it, and assigning a risk score specific to a portfolio, and this past week, we debuted a prototype, which we can see here
-
-- Who would we tailor this to? We'd focus on showing news that impacts any function, seniority, or even portfolio, and the goal is to customize it for the specific user
-	- 
-
-User
-Presentation
-Network
-
-Browser
-Network
-Front end processes
-	- Send to databases
-Databases know how to munge data, scrape, and provide into document format
-Compute tier
-Database tier
-	- Isolate database and storage tier from user
-User only has compute, which doesn't have data in it
-Autoscalability in new data centers
-
-
-Index based retrieval
-Approximate functions - SQL approx count distinct functions that will help speed up your code
-
-Fastest way to retrieve data - partitioning data, sharding - duplicating databases across servers, indexing - reduce the amount of time (faster applications),
-
-Chronjob - that ran every day to update and reference
-
-Cacheing- database optimizations
-Hash indices - to query from tables
-
-All for scaling
+xgboost==1.7.5
+scikit-learn==1.3.2
+numpy==1.24.4
+pandas==2.0.3
