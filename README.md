@@ -6,6 +6,7 @@ Applying explainability techniques to predictive modeling in healthcare.
 This project investigates ICU outcomes using the **MIMIC-IV** dataset, focusing on **mortality** and **length of stay (LOS)**. We use descriptive statistics, visualizations, and predictive modeling with explainability to explore disparities by **race**, **insurance**, **gender**, and **clinical covariates**.
 
 ### 🤖To Run App
+* `git clone` repo to pull files locally
 * Run `streamlit run streamlit_run.py`
 
 ## 📁 Contents
